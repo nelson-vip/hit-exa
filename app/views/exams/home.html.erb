@@ -1,0 +1,44 @@
+<header>
+	<h1>Exam Generator</h1>
+	<p class="note">新增/修改試題、輸出題庫、搜尋</p>
+	<nav>
+		<ul>
+			<li>
+				<%= link_to(:action=>:submitEx) do %>
+ 				<div class="slime Submit"><div class="title">Submit</div>
+						<div class="note">Exam/Problem Set</div></div>
+				<% end %>
+			</li>
+			<li>
+				<%= link_to(:action=>:makeEx) do %>
+				<div class="slime Create">
+					<div class="title">Create</div>
+					<div class="note">from database</div>
+				</div>
+				<% end %>
+			</li>
+			<li>
+				<%= link_to(:action=>:searchEx) do %>
+				<div class="slime Search">
+					<div class="title">Search</div>
+					<div class="note">existed exams</div>
+				</div>
+				<% end %>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<section id="latestExams">
+	<ul>
+		<li>a</li>
+		<li>ae</li>
+		<li>b</li>
+		<li>c</li>
+		<li>d</li>
+	</ul>
+</section>
+
+<footer>
+	&copy; CSIE VIP LAB. 2012, TOS, HowTo
+</footer>

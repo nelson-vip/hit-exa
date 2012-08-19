@@ -1,4 +1,9 @@
 HitExa::Application.routes.draw do
+  get "exams/submitEx"
+  get "exams/makeEx"
+  get "exams/searchEx"
+  get "exams/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -16,7 +16,7 @@ doc/app
 *.swp
 *~
 .DS_Store
-.sublime-workspace
+*.sublime-workspace
 =======
 *.rbc
 *.sassc

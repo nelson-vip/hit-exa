@@ -1,0 +1,162 @@
+// Place all the styles related to the ExamGen controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$genBlue: #3bbfce;
+$bgBlue: rgba(65, 190, 204, 0.43);
+$graygenBlue: rgba(102, 128, 131, 0.73);
+$darkgrayBlue: rgba(25, 28, 29, 0.73);
+$smoke: rgba(247, 243, 243, 0.75);
+$lightgray: rgba(185, 194, 199, 0.7);
+
+$slimeCreate: rgba(100,200,50, .7);
+$slimeSearch: rgba(218, 143, 47, 0.86);
+$slimeSubmit: rgba(50, 146, 200, 0.7);
+
+$margin: 16px;
+
+@mixin border-radius($x){
+	border-radius:$x;
+	moz-border-radius:$x;
+	webkit-border-radius:$x;
+}
+/* @include border-radius(10px); */
+
+body{
+	background: rgba(197, 240, 245, 0.8);
+}
+
+$containerWidth: 768px;
+$containerHeight: 900px;
+div#container{
+	background: $smoke;
+	width: $containerWidth;
+	height: $containerHeight;
+	margin: 0 0 0 50%;
+	left: -$containerWidth/2;
+	position: relative;
+}
+
+a{
+	text-decoration:none;
+	color: rgba(5, 63, 63, 0.84);
+	&:hover{
+		color: $genBlue;
+	}
+}
+
+
+.slime{
+	@include border-radius(10px);
+	box-shadow: 1 4px 2px -2px $bgBlue;
+}
+.Create{
+	background: $slimeCreate;
+	&:hover{
+		background: rgba($slimeCreate, .24);
+	}
+}
+
+.Search{
+	background: $slimeSearch;
+	&:hover{
+		background: rgba($slimeSearch, .24);
+	}
+}
+.Submit{
+	background: $slimeSubmit;
+	&:hover{
+		background: rgba($slimeSubmit, .24);
+	}
+}
+
+/*header**/
+$titleWidth: 180px;
+$headerHeight: 215px;
+header{
+	position: relative;
+	margin: 2px 5px 20px;
+	padding: 5px 0 0;
+	height: $headerHeight;
+	font:{
+  		size: 32px;
+  	};
+	h1 {
+	  color: $genBlue;
+	  margin: 1px;
+	  font:{
+	  	size: 250%;
+	  }
+	}
+
+	.note{
+		color: $graygenBlue;
+	}
+
+	p.note{
+		margin: 0px 2px 2px;
+		position: absolute;
+		right: 10px;
+		top: 75px;
+	}
+
+	nav{
+		padding: 0px;
+		ul{
+			position: absolute;
+			margin: 36px 0 0 50%;
+			left: -($titleWidth * 3 + 12)/2;
+			list-style-type: none;
+			padding:0px;
+		
+			li{
+				margin: 0 7px;
+				float: left;
+				width: $titleWidth - 10;
+				text:{
+					align: center;
+				};				
+
+				div.title{
+					line-height: 100%;
+					font:{
+						weight: bold;
+						size: 120%;
+					};
+				}
+
+				div.note{
+					color: $darkgrayBlue;
+			  		font:{
+						size: 60%;
+					}		
+				}
+			}
+		}
+	}
+}
+
+
+section#latestExams{
+	width: 90%;
+	height: 500px;
+	background:rgba(11, 22, 33, .2 );
+	margin: 8px 0 0 50%;
+	left: -($containerWidth*0.9)/2;
+	overflow: auto;
+	position: absolute;
+	ul{
+		list-style-type: none;
+		padding:0px;
+	}
+
+}
+
+footer{
+	position:absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 80px;
+	background: $lightgray;
+}
+
