@@ -10,6 +10,8 @@ group :development, :test do
 end
 
 group :development do
+  #annotate your Rails models 
+  gem 'annotate', '2.4.1.beta1'
 # the belows are for thin
 	#gem "eventmachine", "1.0.0.beta.4.1"
 	gem 'guard-livereload'
