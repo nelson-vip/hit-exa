@@ -1,0 +1,197 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 498.0
+	},
+	"console":
+	{
+		"height": 212.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Sites/nelsonisapple/app/assets/stylesheets/ddd.css",
+		"/C/Sites/nelsonisapple/config/application.rb",
+		"/C/Sites/nelsonisapple/Gemfile",
+		"/C/Sites/nelsonisapple/app/views/zero/hello.html.erb",
+		"/C/Sites/nelsonisapple/spec/controllers/exam_gen_controller_spec.rb",
+		"/C/Sites/nelsonisapple/config/routes.rb",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/SublimeRailsNav/Default (Windows).sublime-keymap",
+		"/C/Sites/nelsonisapple/app/views/layouts/application.html.erb",
+		"/C/Sites/nelsonisapple/app/views/exam_gen/howTo.html.erb",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Sites/nelsonisapple/app/controllers/exam_gen_controller.rb",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Sites/nelsonisapple/config/database.yml",
+		"/C/Sites/nelsonisapple/.gitignore",
+		"/C/Sites/nelsonisapple/README.rdoc",
+		"/C/Sites/nelsonisapple/README.md",
+		"/C/Sites/nelsonisapple/app/controllers/zero_controller.rb",
+		"/C/Sites/nelsonisapple/app/views/zero/home.html.erb",
+		"/C/RailsInstaller/Ruby1.9.3/setup_environment.bat",
+		"/C/Sites/nelsonisapple/config/environment.rb",
+		"/C/Users/transparency/.profile",
+		"/C/Program Files (x86)/Git/etc/profile",
+		"/C/Users/transparency/.rnd",
+		"/C/Sites/nelsonisapple/config/environments/production.rb",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/transparency/AppData/Roaming/Sublime Text 2/Packages/Theme - Soda/Soda Dark/Widget - Soda Dark.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" config.assets.initialize_on_precompile",
+			"initialize",
+			"darkgen",
+			"50px",
+			"body",
+			"body_only",
+			"gem",
+			"RUBY_GEM_BIN",
+			"SSH_ENV",
+			"config.action_view.",
+			"javascript_expansions",
+			"jquery"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app/controllers/ze",
+				"app/controllers/zero_controller.rb"
+			],
+			[
+				"config/routes.",
+				"config/routes.rb"
+			],
+			[
+				"config/rout",
+				"config/environments/production.rb"
+			],
+			[
+				"",
+				"config/environment.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}
