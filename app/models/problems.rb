@@ -20,6 +20,15 @@
 #
 
 class Problems < ActiveRecord::Base
-	attr_accessible :origIndex, :context, :note, :answers, :links, :tags
+	attr_accessible :origIndex, :context, :note, :answers, :links, :tags, :sLevel, :count_right, :count_wrong, :count_empty
+
+	validates :examId,	:presence =>true
+	validates :context,	:presence =>true
+						
+	validates :answers,	:presence =>true,
+						:length => {:maximum => 255 }
+	validates :tags,	:presence =>true,
+						:length => {:maximum => 255 }
+	validates :sLevel,	:presence =>true
 end
 

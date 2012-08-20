@@ -35,6 +35,12 @@ div#container{
 	margin: 0 0 0 50%;
 	left: -$containerWidth/2;
 	position: relative;
+	pre.debug_dump{
+		position: absolute;
+		background: rgba(200, 90,80,.5);
+		bottom: 40px;
+		left: 40px;
+	}
 }
 
 a{
