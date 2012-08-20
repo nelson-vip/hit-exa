@@ -1,13 +1,12 @@
 class ExamsController < ApplicationController
-  def submitEx
-  end
-
-  def makeEx
-  end
-
-  def searchEx
-  end
 
   def home
+  end
+
+  def show
+    @exam = Examlib.find(params[:id])
+  end
+
+  def new
   end
 end

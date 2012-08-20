@@ -11,10 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120819151351) do
+ActiveRecord::Schema.define(:version => 20120820042216) do
 
   create_table "examlibs", :force => true do |t|
-    t.string   "type"
+    t.string   "exname"
     t.datetime "year"
     t.integer  "semester"
     t.string   "organization"

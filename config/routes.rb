@@ -1,8 +1,14 @@
 HitExa::Application.routes.draw do
-  get "exams/submitEx"
-  get "exams/makeEx"
-  get "exams/searchEx"
-  get "exams/home"
+  
+  root :to => "exams#home"
+  resources :exams
+  match "submitEx", :to => "exams#submitEx"
+  match "makeEx", :to => "exams#makeEx"
+  match "searchEx", :to => "exams#searchEx"
+
+  
+  
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

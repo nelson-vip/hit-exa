@@ -36,19 +36,21 @@ div#container{
 	left: -$containerWidth/2;
 	position: relative;
 	pre.debug_dump{
+		z-index: 60;
 		position: absolute;
 		background: rgba(200, 90,80,.5);
 		bottom: 40px;
-		left: 40px;
+		right: 40px;
+		width: 400px;
 	}
 
 	a{
-	text-decoration:none;
-	color: rgba(5, 63, 63, 0.84);
-	&:hover{
-		color: $genBlue;
+		text-decoration:none;
+		color: rgba(5, 63, 63, 0.84);
+		&:hover{
+			color: $genBlue;
+		}
 	}
-}
 }
 
 .slime{
