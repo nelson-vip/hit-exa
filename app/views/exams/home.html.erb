@@ -4,26 +4,33 @@
 	<nav>
 		<ul>
 			<li>
-				<%= link_to(:action=>:submitEx) do %>
- 				<div class="slime Submit"><div class="title">Submit</div>
-						<div class="note">Exam/Problem Set</div></div>
-				<% end %>
+ 				<div class="slime Submit">
+ 					<div class="title">
+ 					<%= link_to(:action=>:submitEx) do %>
+ 						Submit
+ 					<% end %></div>
+ 					<div class="note">Exam/Problem Set</div>
+ 				</div>
 			</li>
 			<li>
-				<%= link_to(:action=>:makeEx) do %>
 				<div class="slime Create">
-					<div class="title">Create</div>
+					<div class="title">
+						<%= link_to(:action=>:makeEx) do %>
+						Create
+						<% end %>
+					</div>
 					<div class="note">from database</div>
 				</div>
-				<% end %>
 			</li>
 			<li>
-				<%= link_to(:action=>:searchEx) do %>
 				<div class="slime Search">
-					<div class="title">Search</div>
+					<div class="title">
+						<%= link_to(:action=>:searchEx) do %>
+						Search
+						<% end %>
+					</div>
 					<div class="note">existed exams</div>
 				</div>
-				<% end %>
 			</li>
 		</ul>
 	</nav>

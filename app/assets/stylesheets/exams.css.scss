@@ -41,16 +41,15 @@ div#container{
 		bottom: 40px;
 		left: 40px;
 	}
-}
 
-a{
+	a{
 	text-decoration:none;
 	color: rgba(5, 63, 63, 0.84);
 	&:hover{
 		color: $genBlue;
 	}
 }
-
+}
 
 .slime{
 	@include border-radius(10px);
@@ -153,8 +152,20 @@ section#latestExams{
 	overflow: auto;
 	position: absolute;
 	ul{
+		top: 20px;
 		list-style-type: none;
 		padding:0px;
+		width: 300px;
+		margin: 0 0 0 50%;
+		left: -150px;
+		position: absolute;
+		li{
+			text:{
+				align: left;
+			};
+			border: rgba(122,200,189, .7) 1.5px solid; 
+			background:$smoke;
+		}
 	}
 
 }
